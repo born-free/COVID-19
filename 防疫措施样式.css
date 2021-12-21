@@ -1,0 +1,143 @@
+body { 
+  background-color: rgb(135,196,237) ;
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:        small;
+  margin:           0px;
+}
+
+#header {
+  background-color: rgb(0,78,120) ;
+  margin: 10px 10px 0px 10px;
+  height:           108px;
+}
+#header img{
+ width:auto;
+  height:           108px;
+}
+#header p {
+	float: right;
+  color: white;
+  font-size:  30px      ;
+  margin-top: 55px;
+  margin-right: 20px;
+}
+
+#shuiping ul li
+{
+    display:inline;
+   padding: 5px 10px 5px 5px;
+   float:right;
+   text-decoration: none;
+   font-size: 18px;
+   
+}
+#shuiping ul li a:link,ul li a:visited{
+    color:  	white;
+    border-bottom: none;
+    font-weight: bold;
+    text-decoration:none;
+}
+#shuiping ul li a:hover
+{
+    color: rgb(0,78,120);
+    text-decoration: underline;
+}
+
+div#tableContainer {
+	display: table;
+	border-spacing: 10px;
+  clear: right;
+}
+
+div#tableRow {
+	display: table-row;
+}
+
+div#shuzhi {
+    display: table-cell;
+    background-color:  rgb(0,78,120) ;
+    width: 15%;
+    padding: 15px;
+    vertical-align: top;
+}
+
+div#main {
+  display: table-cell;
+  background:     rgb(228,244,245)  url(images/background.gif) top left;
+  font-size:        105%;
+  padding:          15px;
+  vertical-align: top;
+  text-indent:25px;
+  width: 70%;
+}
+div#main img{display: block;
+  margin: auto;}
+#sidebar {
+  display: table-cell;
+  background:      rgb(228,244,245) url(images/background.gif) bottom right;
+  font-size:        105%;
+  padding:          15px;
+  width:15%;
+  vertical-align: top;
+}
+#sidebar a:link,a:visited {display: block;
+  color: #954b4b;
+text-decoration: none;}
+
+#sidebar a:hover{display: block;
+  color: rgb(0,78,120);
+  text-decoration: underline;}
+#footer {
+  background-color: rgb(0,78,120);
+  color:            #efe5d0;
+  text-align:       center;
+  padding:          15px;
+  margin: 0px 10px 10px 10px;
+  font-size:        90%;
+}
+
+h1 {
+  font-size:        120%;
+  color:            #954b4b;
+  text-align:center;
+}
+
+h2 { font-size: 110%; }
+
+.slogan { color: #954b4b; }
+
+/*.beanheading {
+  text-align:       center;
+  line-height:      1.8em;
+}*/
+
+a:link {
+  color:            #b76666;
+  text-decoration:  none;
+  border-bottom:    thin dotted #b76666;
+}
+a:visited {
+  color:            #675c47;
+  text-decoration:  none;
+  border-bottom:    thin dotted #675c47;
+}
+
+nav ul li
+{
+    
+   padding: 0%;
+  
+   text-decoration: none;
+   font-size: 15px;
+}
+nav ul li a:link,ul li a:visited{
+    color:  white;
+    border-bottom: none;
+    font-weight: bold;
+    text-decoration:none;
+}
+nav ul li a:hover
+{
+    color: white;
+    text-decoration: underline;
+}
